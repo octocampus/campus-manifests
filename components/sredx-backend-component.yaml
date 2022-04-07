@@ -5,6 +5,7 @@ metadata:
   description: Scoring SRE Backend
   annotations:
     github.com/project-slug: octocampus/scoring-sredx-home
+    'backstage.io/kubernetes-label-selector': 'app=sre-backend'
   tags:
     - java
     - data
