@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: octocampus/scoring-sredx-app
     'backstage.io/kubernetes-label-selector': 'app=sredx-app'
+    sonarqube.org/project-key: scoring-sredx-app
   tags:
     - java
     - data
