@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: dummy
+  description: Everything related to dummy
+spec:
+  owner: campus-plateform

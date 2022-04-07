@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-sredx
+  description: SRE DX
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: team-sredx@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  children: []

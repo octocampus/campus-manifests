@@ -14,7 +14,7 @@ spec:
     displayName: ACME Corp
     email: info@example.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [infrastructure]
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
@@ -23,11 +23,5 @@ metadata:
   description: A collection of all Backstage example Groups
 spec:
   targets:
-    - ./infrastructure-group.yaml
-    - ./boxoffice-group.yaml
-    - ./backstage-group.yaml
-    - ./team-a-group.yaml
-    - ./team-b-group.yaml
-    - ./team-c-group.yaml
-    - ./team-d-group.yaml
+    - ./sredx-team-group.yaml
     - ./plateform-team-group.yaml

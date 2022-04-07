@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./components/sredx-backend-component.yaml
+    - ./components/sredx-app-component.yaml
