@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-lookup
-  description: Artist Lookup
+  name: sredx-backend
+  description: Scoring SRE Backend
   annotations:
     github.com/project-slug: octocampus/scoring-sredx-home
   tags:
@@ -12,6 +12,3 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-a
-  system: artist-engagement-portal
-  dependsOn: ['resource:artists-db']
-  apiConsumedBy: ['component:www-artist']
