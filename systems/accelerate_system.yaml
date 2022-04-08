@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: accelerate-system
+  description: Development of a SAAS platform for DevSecOps maturity assessment 
+spec:
+  owner: accelerate-team

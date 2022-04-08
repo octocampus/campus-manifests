@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: accelerate-team
+  description: Development of a SAAS platform for DevSecOps maturity assessment 
+spec:
+  type: team
+  profile:
+    email: not-ready@accelerate.com
+    picture: https://www.elsevier.com/__data/assets/image/0009/484209/iStock-182752008-Credit-Bluberries.jpg
+  members: [Faissal,Mohammed]
+  children: []

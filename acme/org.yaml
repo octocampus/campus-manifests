@@ -27,3 +27,6 @@ spec:
     - ./plateform-team-group.yaml
     - ./mfa-team-group.yaml
     - ./kyc-team-group.yaml
+    - ./accelerate-team-group.yaml
+    - ./users/faissal_elfid.yaml
+    - ./users/mohamed_zerouali.yaml

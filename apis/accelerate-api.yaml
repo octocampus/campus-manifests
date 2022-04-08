@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: accelerate-api
+  description: Accelerate springboot REST API
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: accelerate-team
+  system: accelerate-system
+  definition:
+    $text: https://github.com/FaissalElfid/backstage-manifest/blob/main/api/accelerate.json
+    # $text: https://accelerate-backend.campus.clusterdiali.me/api/v1/hello-octo/api-docs #working on the app cors

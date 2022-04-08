@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./resources/artists-db-resource.yaml
+    - ./resources/accelerate-resource.yaml
