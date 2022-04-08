@@ -42,4 +42,4 @@ spec:
   owner: accelerate-team
   system: accelerate-system
   consumesApi:
-    - artist-api
+    - accelerate-api

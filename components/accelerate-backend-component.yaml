@@ -44,4 +44,4 @@ spec:
   dependsOn:
     - resource:accelerate-system/accelerate-db
   providesApis:
-    - artist-api
+    - accelerate-api
