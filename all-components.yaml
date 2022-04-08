@@ -7,3 +7,5 @@ spec:
   targets:
     - ./components/sredx-backend-component.yaml
     - ./components/sredx-app-component.yaml
+    - ./components/mfa-backend-component.yaml
+    - ./components/mfa-app-component.yaml

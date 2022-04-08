@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mfa-backend
+  description: MFA Core
+  annotations:
+    github.com/project-slug: octocampus/oba-socle
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=api,app.kubernetes.io/part-of=mfa'
+    sonarqube.org/project-key: oba-oscle
+  tags:
+    - java
+    - data
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-mfa
