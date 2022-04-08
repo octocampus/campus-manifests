@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kyc-backend
+  description: KYC Core
+  annotations:
+    github.com/project-slug: octocampus/kyc
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=api,app.kubernetes.io/part-of=kyc'
+    sonarqube.org/project-key: kyc
+  tags:
+    - java
+    - data
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-kyc

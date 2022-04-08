@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kyc-app
+  description: KYC App
+  annotations:
+    github.com/project-slug: octocampus/kyc-admin
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=front,app.kubernetes.io/part-of=kyc'
+    sonarqube.org/project-key: kyc-admin
+  tags:
+    - java
+    - data
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-kyc

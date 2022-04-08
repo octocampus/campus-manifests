@@ -26,3 +26,4 @@ spec:
     - ./sredx-team-group.yaml
     - ./plateform-team-group.yaml
     - ./mfa-team-group.yaml
+    - ./kyc-team-group.yaml

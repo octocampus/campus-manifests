@@ -9,3 +9,5 @@ spec:
     - ./components/sredx-app-component.yaml
     - ./components/mfa-backend-component.yaml
     - ./components/mfa-app-component.yaml
+    - ./components/kyc-backend-component.yaml
+    - ./components/kyc-app-component.yaml
