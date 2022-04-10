@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: mfa-app
   description: MFA App
+  title: MFA App
   annotations:
     github.com/project-slug: octocampus/oba-admin
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=front,app.kubernetes.io/part-of=mfa'
