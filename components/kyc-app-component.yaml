@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: kyc-app
   description: KYC App
+  title: KYC App
   annotations:
     github.com/project-slug: octocampus/kyc-admin
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=front,app.kubernetes.io/part-of=kyc'
