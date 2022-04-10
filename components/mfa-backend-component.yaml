@@ -15,4 +15,3 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-mfa
-  title: MFA Core
