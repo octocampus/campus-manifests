@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: sredx-app
   description: Scoring SRE App
+  title: Scoring SRE App
   annotations:
     github.com/project-slug: octocampus/scoring-sredx-app
     'backstage.io/kubernetes-label-selector': 'app=sredx-app'
