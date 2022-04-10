@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: mfa-backend
   description: MFA Core
+  title: MFA Core
   annotations:
     github.com/project-slug: octocampus/oba-socle
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=api,app.kubernetes.io/part-of=mfa'
