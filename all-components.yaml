@@ -11,3 +11,5 @@ spec:
     - ./components/mfa-app-component.yaml
     - ./components/kyc-backend-component.yaml
     - ./components/kyc-app-component.yaml
+    - ./components/accelerate-backend-component.yaml
+    - ./components/accelerate-app-component.yaml

@@ -1,0 +1,47 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: accelerate-backend
+  description: Accelerate backend for DevSecOps maturity assessment 
+  annotations:
+    github.com/project-slug: octocampus/devsecops_backend
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=backend-app-staging,app.kubernetes.io/part-of=accelerate'
+    sonarqube.org/project-key: accelerate-backend
+  links:
+    - url: https://accelerate.campus.clusterdiali.me/
+      title: Accelerate frontend
+      icon: dashboard 
+    - url: https://accelerate-backend.campus.clusterdiali.me/
+      title: Accelerate backend
+      icon: room-service
+    - url: https://github.com/octocampus/devsecops_frontend
+      title: Github Frontend Repository 
+      icon: GitHub
+    - url: https://github.com/octocampus/devsecops_backend
+      title: Github Backend Repository 
+      icon: GitHubIcon 
+    - url: https://github.com/octocampus/accelerate-gitops
+      title: Github GitOps Repository 
+      icon: GitHubIcon 
+    - url: https://sonar.campus.clusterdiali.me/dashboard?id=accelerate-frontend
+      title: SonarQube Frontend
+      icon: PolicyIcon 
+    - url: https://sonar.campus.clusterdiali.me/dashboard?id=accelerate-backend
+      title: SonarQube Backend
+      icon: PolicyIcon 
+    - url: https://accelerate-octo.atlassian.net/jira/software/projects/AC/boards/1
+      title: Accelerate Jira
+      icon: GroupsIcon 
+  tags:
+    - springboot
+    - backend
+    - openapi
+spec:
+  type: service
+  lifecycle: experimental
+  owner: accelerate-team
+  system: accelerate-system
+  dependsOn:
+    - resource:accelerate-system/accelerate-db
+  providesApis:
+    - accelerate-api

@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./systems/dummy-system.yaml
+    - ./systems/accelerate-system.yaml

@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: accelerate-db
+  description: MongoDB database
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/octocampus/accelerate-gitops/tree/main/apps/mongodb
+spec:
+  type: database
+  owner: accelerate-team
+  system: accelerate-system

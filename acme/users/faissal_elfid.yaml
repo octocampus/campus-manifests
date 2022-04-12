@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Faissal
+spec:
+  profile:
+    displayName: EL FID Faissal
+    email: faissal.elfid@gmail.com
+    picture: https://raw.githubusercontent.com/FaissalElfid/backstage-manifest/main/image/profile.jpg
+  memberOf: [accelerate-team]
