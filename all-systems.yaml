@@ -7,3 +7,4 @@ spec:
   targets:
     - ./systems/dummy-system.yaml
     - ./systems/accelerate-system.yaml
+    - ./systems/cooptation/cooptation-system.yaml
