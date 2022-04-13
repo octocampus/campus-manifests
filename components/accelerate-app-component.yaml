@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: accelerate-frontend
-  name: Accelerate App
+  title: Accelerate App
   description: Accelerate frontend for DevSecOps maturity assessment 
   annotations:
     github.com/project-slug: octocampus/devsecops_frontend
