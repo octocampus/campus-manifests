@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Yassine
+spec:
+  profile:
+    displayName: Naciri Yassine
+    email: yassine84@gmail.com
+  memberOf: [cooptation-team]

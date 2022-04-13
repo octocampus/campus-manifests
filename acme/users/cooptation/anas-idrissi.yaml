@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Anas
+spec:
+  profile:
+    displayName: Idrissi Anas
+    email: anas.idrissi.ta@gmail.com
+  memberOf: [cooptation-team]

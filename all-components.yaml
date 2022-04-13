@@ -13,3 +13,5 @@ spec:
     - ./components/kyc-app-component.yaml
     - ./components/accelerate-backend-component.yaml
     - ./components/accelerate-app-component.yaml
+    - ./components/cooptation/cooptation-backend-component.yaml
+    - ./components/cooptation/cooptation-app-component.yaml

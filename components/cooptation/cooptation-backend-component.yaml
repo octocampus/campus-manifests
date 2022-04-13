@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cooptation-backend
+  title: cooptation api
+  description:  backend for cooptation platform 
+  annotations:
+    github.com/project-slug: octocampus/cooptation-api 
+    'backstage.io/kubernetes-label-selector': 'app=spring'
+    sonarqube.org/project-key: cooptation-backend
+  links:
+    - url: https://cooptation-api.campus.clusterdiali.me/
+      title: cooptation backend
+    - url: https://github.com/octocampus/cooptation-api
+      title: Github Backend Repository 
+    - url: https://github.com/octocampus/cooptation-gitOps
+      title: Github GitOps Repository 
+    - url: https://sonar.campus.clusterdiali.me/dashboard?id=cooptation-backend
+      title: SonarQube Backend
+    - url: https://cooptation.atlassian.net/jira/software/projects/COOP/boards/1/backlog
+      title: cooptation Jira
+  tags:
+    - sprintboot
+    - backend
+    - cooptation
+spec:
+  type: website
+  lifecycle: experimental
+  owner: cooptation-team

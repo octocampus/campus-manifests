@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cooptation-frontend
+  title: cooptation App
+  description:  frontend for cooptation platform 
+  annotations:
+    github.com/project-slug: octocampus/cooptation-app 
+    'backstage.io/kubernetes-label-selector': 'app=react'
+    sonarqube.org/project-key: cooptation-frontend
+  links:
+    - url: https://cooptation.campus.clusterdiali.me/
+      title: cooptation frontend
+    - url: https://github.com/octocampus/cooptation-app
+      title: Github Frontend Repository 
+    - url: https://github.com/octocampus/cooptation-gitOps
+      title: Github GitOps Repository 
+    - url: https://sonar.campus.clusterdiali.me/dashboard?id=cooptation-frontend
+      title: SonarQube Frontend
+    - url: https://cooptation.atlassian.net/jira/software/projects/COOP/boards/1/backlog
+      title: cooptation Jira
+  tags:
+    - reactjs
+    - frontend
+    - cooptation
+spec:
+  type: website
+  lifecycle: experimental
+  owner: cooptation-team

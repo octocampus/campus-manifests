@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cooptation-team
+  description:  Framing and implementation of a blockchain based human resources cooptation platform 
+spec:
+  type: team
+  profile:
+    email: team-cooptation@example.com
+  members: [Abdelati,Anas,Yassine]
+  children: []

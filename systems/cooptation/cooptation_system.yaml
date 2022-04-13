@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: cooptation-system
+  description: Framing and implementation of a blockchain based human resources cooptation platform 
+spec:
+  owner: cooptation-team

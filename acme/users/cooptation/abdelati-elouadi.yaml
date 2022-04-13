@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Abdelati
+spec:
+  profile:
+    displayName: El ouadi Abdelati
+    email: elouadi_abdelati@outlook.fr
+  memberOf: [cooptation-team]
