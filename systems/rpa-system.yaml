@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: rpa-system
+  description: Development of an Email Robot for the RPA platform
+spec:
+  owner: rpa-team

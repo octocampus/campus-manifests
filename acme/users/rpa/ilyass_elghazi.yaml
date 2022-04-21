@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Ilyass
+spec:
+  profile:
+    displayName: Ilyass EL Ghazi
+    email: elghazi.elyass@gmail.com
+  memberOf: [rpa-team]

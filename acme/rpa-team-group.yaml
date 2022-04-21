@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rpa-team
+  description: Development of an Email Robot for the RPA platform
+spec:
+  type: team
+  profile:
+    email: rpa-team@octo.com
+  members: [Ismail,Ilyass]
+  children: []

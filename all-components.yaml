@@ -15,3 +15,4 @@ spec:
     - ./components/accelerate-app-component.yaml
     - ./components/cooptation/cooptation-backend-component.yaml
     - ./components/cooptation/cooptation-app-component.yaml
+    - ./components/rpa-email-robot.yaml
