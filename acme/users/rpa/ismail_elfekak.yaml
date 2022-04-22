@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Ismail
+spec:
+  profile:
+    displayName: EL FEKAK Ismail
+    email: ismail.elfekak@gmail.com
+  memberOf: [rpa-team]

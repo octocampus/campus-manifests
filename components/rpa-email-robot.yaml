@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rpa-email-robot
+  title: RPA Email Robot
+  description: Email Robot for the RPA platform
+  annotations:
+    github.com/project-slug: octocampus/rpa
+    sonarqube.org/project-key: rpa-email-robot
+  links:
+    - url: https://rpa.campus.clusterdiali.me/
+      title: rpa email robot frontend
+    - url: https://github.com/octocampus/email-robot
+      title: Github Robot Repository
+    - url: https://github.com/octocampus/email-robot-dashboard
+      title: Github Robot Dashboard Repository
+    - url: https://github.com/octocampus/email-robot-monitoring
+      title: Github Robot Monitoring Repository
+    - url: https://sonar.campus.clusterdiali.me/dashboard?id=rpa-email-robot
+      title: SonarQube Email Robot
+    - url: https://sonar.campus.clusterdiali.me/dashboard?id=rpa-email-robot-monitoring-api
+      title: SonarQube Email Robot Monitoring API
+  tags:
+    - python
+    - rpa
+spec:
+  type: website
+  lifecycle: experimental
+  owner: rpa-team
+  consumesApi:
+    - email-robot-monitoring-api

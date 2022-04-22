@@ -7,3 +7,4 @@ spec:
   targets:
     - ./apis/hello-world-api.yaml
     - ./apis/accelerate-api.yaml
+    - ./apis/rpa-monitoring-api.yaml
